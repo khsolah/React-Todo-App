@@ -20,6 +20,7 @@
     "svgo": "^2.5.0"
   },
   "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.5",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
@@ -31,6 +32,7 @@
     "husky": "^7.0.0",
     "lint-staged": ">=10",
     "postcss": "^8.3.6",
+    "prettier": "^2.3.2",
     "tailwindcss": "^2.2.9",
     "typescript": "^4.3.2",
     "vite": "^2.5.2"
