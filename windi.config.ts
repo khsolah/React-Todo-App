@@ -1,7 +1,13 @@
-const colors = require('tailwindcss/colors')
+// const colors = require('tailwindcss/colors')
+import colors from 'windicss/colors'
+import { defineConfig } from 'vite-plugin-windicss'
 
-module.exports = {
-  purge: [],
+export default defineConfig({
+  attributify: true,
+  extract: {
+    include: ['src/**/*.tsx'],
+    exclude: ['node_modules', '.git']
+  },
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -1032,4 +1038,4 @@ module.exports = {
     zIndex: ['responsive', 'focus-within', 'focus']
   },
   plugins: []
-}
+})
