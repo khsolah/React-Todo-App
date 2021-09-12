@@ -1,19 +1,18 @@
 import React, { FC } from 'react'
 import Icon from './Icon'
-import '~/assets/css/base.css'
 
 const header: FC = () => {
   return (
     <>
-      <header className='bg-primary flex text-white w-full top-0 right-0 left-0 fixed items-center lg:h-11 lg:px-11'>
-        <button className='lg:mr-1'>
-          <Icon name='menu' className='fill-white button lg:h-6 lg:w-6' />
+      <header className='bg-primary flex h-11 text-white w-full px-11 top-0 right-0 left-0 z-99 fixed items-center -md:px-3'>
+        <button className='mr-1 button'>
+          <Icon name='menu' className='h-6 fill-white w-6 button' />
         </button>
         <button className='button'>
-          <Icon name='home-outline' className='fill-white lg:h-6 lg:w-6' />
+          <Icon name='home-outline' className='h-6 fill-white w-6' />
         </button>
-        <button className='ml-auto button lg:mr-3'>
-          <Icon name='plus' className='lg:h-6 lg:w-6' />
+        <button className='ml-auto mr-3 button'>
+          <Icon name='plus' className='h-6 w-6' />
         </button>
       </header>
     </>

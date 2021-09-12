@@ -1,0 +1,3 @@
+.todolist__button--create:hover > i > * {
+  @apply bg-primary text-white;
+}
