@@ -80,7 +80,7 @@ const createTodoForm: FC<{
           新增任務
         </button>
         <button
-          className='border border-solid rounded-md border-gray-400 py-1 px-10px'
+          className='border border-solid rounded-md border-gray-400 py-1 px-10px focus:outline-none'
           onClick={e => {
             e.preventDefault()
             clear()

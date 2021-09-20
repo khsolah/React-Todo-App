@@ -1,3 +1,7 @@
 .todolist__button--create:hover > i > * {
   @apply bg-primary text-white;
 }
+
+.todolist__item--dragging::before {
+  @apply bg-gray-100 top-0 right-0 bottom-0 left-0 content-'' absolute block;
+}
